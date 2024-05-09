@@ -1,0 +1,1742 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+;
+
+
+.headBar {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.headContainer1 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #274C5B;
+}
+
+@media screen and (max-width: 1400px) {
+    .logo img {
+        width: 140px;
+        height: 30px;
+    }
+
+    .banner {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+
+
+.SearchBar {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    background-color: #F9F8F8;
+    justify-content: end;
+
+
+}
+
+.SearchPlace {
+    width: 70%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.originSearch {
+    border: 0;
+    flex: 1;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+
+
+}
+
+.SearchIcon {
+    padding-left: 3px;
+}
+
+.cartBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6%;
+    border-width: 1px;
+    border-radius: 25%;
+    margin-right: 40px;
+
+}
+
+.banner {
+    width: 100%;
+    height: 898px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 40px;
+    background-image: url(Image.png);
+}
+
+.buttonExplore {
+    width: Hug (237px)px;
+    height: Hug (80px)px;
+    padding: 28px 39px 29px 39px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #EFD372;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.banner-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 53%;
+    height: 100%;
+    margin-left: 200px;
+}
+
+.robotoText {
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+    line-height:
+        82.03px;
+    margin-bottom: 20px;
+
+}
+
+.buttonExplore {
+    width: 43%;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    border: 0px;
+}
+
+.yellowtailtText {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    color: #68A47F;
+    font-size: 36px;
+    line-height: 49.06px;
+    margin-bottom: 20px;
+}
+
+.homeBtn,
+.AboutBtn,
+.PagesDropdown,
+.ShopBtn,
+.ProjectsBtn,
+.NewsBtn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+}
+
+.offerBanner {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    width: 100%;
+    height: 60%;
+
+}
+
+.leftOffer {
+    background-image: url(leftOfferImage.png);
+    width: 682.24px;
+    height: 367px;
+    margin-right: 15px;
+}
+
+.rightOffer {
+    background-image: url(rightOfferImage.png);
+    width: 682.24px;
+    height: 367px;
+    margin-left: 15px;
+
+}
+
+.offerDivCombainer1,
+.offerDivCombainer2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.yellowtailtTextOffer1 {
+    font-size: 36px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.roboTextOffer1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+.yellowtailtTextOffer2 {
+    font-size: 36px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    color: #7EB693;
+    margin-bottom: 10px;
+
+}
+
+.roboTextOffer2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #274C5B;
+
+
+}
+
+.aboutUs {
+    background-image: url(aboutUSBackground.png);
+    height: 1067px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    gap: 46px;
+
+}
+
+.aboutUsComb {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: 0;
+}
+
+.aboutUsImg {
+    width: 50%;
+}
+
+.yellowtailtTexAbout {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #7EB693;
+
+
+
+}
+
+.roboTextAbout {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.dummyAbout {
+    font-size: 18px;
+    color: #525C60;
+    margin-bottom: 20px;
+
+}
+
+.aboutComb1 {
+    width: 70%;
+}
+
+.descriptionHeader1,
+.descriptionHeader2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #274C5B;
+    font-size: 25px;
+}
+
+.desriptionDummy1,
+.desriptionDummy2 {
+    font-size: 18px;
+    color: #525C60;
+    width: 80%;
+
+}
+
+.point1About,
+.point2About {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.iconAbout1,
+.iconAbout2 {
+    margin-top: 20px;
+}
+
+.shopNowBtnAbout {
+    width: Hug (237px)px;
+    height: Hug (80px)px;
+    padding: 28px 39px 29px 39px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #274C5B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0;
+    color: #FFFFFF;
+    margin-top: 25px;
+
+}
+
+.shopHomeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopHome {
+    height: Hug (1, 343px);
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.yellowtailtTexShop {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #7EB693;
+    margin-top: 150px;
+}
+
+.roboTextShop {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #274C5B;
+    margin-bottom: 70px;
+}
+
+.loadBtnShop {
+    width: Hug (237px)px;
+    height: Hug (80px)px;
+    padding: 28px 39px 29px 39px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #274C5B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0;
+    color: #FFFFFF;
+    margin-top: 100px;
+
+}
+
+.foodCardRow1,
+.foodCardRow2 {
+    gap: 20px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foodCardRow2 {
+    margin-top: 30px;
+}
+
+.cart1,
+.cart2,
+.cart3,
+.cart4,
+.cart5,
+.cart6,
+.cart7,
+.cart8 {
+    background-color: #F9F8F8;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+
+
+}
+
+.descryber1,
+.descryber2,
+.descryber3,
+.descryber4,
+.descryber5,
+.descryber6,
+.descryber7,
+.descryber8 {
+    padding: 6px 10px 6px 10px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #274C5B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0;
+    color: #FFFFFF;
+    margin: 25px;
+
+}
+
+.textDescryber {
+    font-size: 15px;
+}
+
+.oldPrice1,
+.oldPrice2,
+.oldPrice3,
+.oldPrice4,
+.oldPrice5,
+.oldPrice6,
+.oldPrice7,
+.oldPrice8 {
+    color: #B8B8B8;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.price1,
+.price2,
+.price3,
+.price4,
+.price5,
+.price6,
+.price7,
+.price8 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newPrice1,
+.newPrice2,
+.newPrice3,
+.newPrice4,
+.newPrice5,
+.newPrice6,
+.newPrice7,
+.newPrice8 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.line {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DEDDDD;
+    width: 274.99px;
+    margin: 15px;
+
+
+}
+
+.group1,
+.group2,
+.group3,
+.group4,
+.group5,
+.group6,
+.group7,
+.group8 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descriptionCart1,
+.descriptionCart2,
+.descriptionCart3,
+.descriptionCart4,
+.descriptionCart5,
+.descriptionCart6,
+.descriptionCart7,
+.descriptionCart8 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #274C5B;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.priceGroup1,
+.priceGroup2,
+.priceGroup3,
+.priceGroup4,
+.priceGroup5,
+.priceGroup6,
+.priceGroup7,
+.priceGroup8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgcart1,
+.imgcart2,
+.imgcart3,
+.imgcart4,
+.imgcart5,
+.imgcart6,
+.imgcart7,
+.imgcart8 {
+    height: 300px;
+}
+
+
+.mainCostumerRating {
+    width: 100%;
+    height: 1267px;
+    background-image: url(Background-Rating.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.ratingChild {
+    width: 60%;
+    height: 80%;
+}
+
+.yellowtailtTextRating {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #7EB693;
+}
+
+.roboTextRating {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+    font-size: 50px;
+}
+
+.RatingHeader {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.RatingBody {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.dummyRating1 {
+    width: 100%;
+    color: #525C60;
+
+}
+
+.dummyRating2 {
+    width: 60%;
+    color: #525C60;
+
+}
+
+.dummyRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.NameRating {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #274C5B;
+    margin-top: 20px;
+}
+
+.statusRating {
+    color: #525C60;
+
+}
+
+.RatingLine {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DEDDDD;
+}
+
+.ratingFooter {
+    height: 40%;
+    width: 100%;
+
+
+}
+
+.RatingScore {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sircleRatingRobo1,
+.sircleRatingRobo2,
+.sircleRatingRobo3,
+.sircleRatingRobo4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #274C5B;
+    font-size: 50px;
+}
+
+.sircleRatingYellow1,
+.sircleRatingYellow2,
+.sircleRatingYellow3,
+.sircleRatingYellow4 {
+    color: #525C60;
+
+
+}
+
+.sircleRating1,
+.sircleRating2,
+.sircleRating3,
+.sircleRating4 {
+    background-color: #F1F1F1;
+    border-radius: 50%;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sircleRating {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.offersMain {
+    background-image: url(Background-offer.png);
+    width: 100%;
+    height: 1050px;
+}
+
+.offersContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttonExploreOffers {
+    padding: 28px 39px 29px 39px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #EFD372;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.YellowtailTextOffers {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #7EB693;
+}
+
+.robotoTextOffers {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    font-size: 50px;
+}
+
+.offer1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.offer2 {
+    padding-top: 40px;
+    gap: 30px;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.whoWeAreMain {
+    width: 100%;
+    height: 930px;
+
+}
+
+.whoWeAreContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftwhoWeAre {
+    width: 50%;
+    height: 100%;
+}
+
+.leftwhoWeAre img {
+    width: 100%;
+    height: 100%;
+}
+
+.rightewhoWeAre {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardWhoWeAre {
+    width: 50%;
+    height: 65%;
+    left: 871px;
+    top: 6900px;
+
+}
+
+.cardWhoWeAreContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 0px;
+    background-color: #FFFFFF;
+    gap: 20px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 25px;
+
+}
+
+
+
+.yellowtailtTextWhoWeAre {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #7EB693;
+}
+
+.roboTextWhoWeAre {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.headerDummyWhoWeAre1,
+.headerDummyWhoWeAre2,
+.headerDummyWhoWeAre3 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+}
+
+.dummyWhoWeAre1,
+.dummyWhoWeAre2,
+.dummyWhoWeAre3 {
+    color: #525C60;
+    font-size: 18px;
+}
+
+.galleryMain {
+    height: 957px;
+    width: 100%;
+
+
+}
+
+.galleryContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f8f4;
+
+}
+
+.cardGallery1 {
+    width: 29%;
+    background-image: url(Image1Gallery.png);
+    height: 61%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardGallery3 {
+    width: 29%;
+    height: 61%;
+    background-image: url(Image3Gallery.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardGallery2 {
+    width: 29%;
+    height: 61%;
+    background-image: url(image2Gallery.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descryberGallery1,
+.descryberGallery2,
+.descryberGallery3 {
+    padding: 28px 60px 29px 60px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0;
+
+
+}
+
+.descryberGallery1Text,
+.descryberGallery2Text,
+.descryberGallery3Text {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+
+}
+
+.blogMain {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blogContainer {
+    width: 60%;
+    height: 80%;
+
+
+
+}
+
+.yellowtailtTextBlog {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #7EB693;
+}
+
+.roboTextBlog {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.headerDivBlog {
+    width: 100%;
+    height: 20%;
+    DISPLAY: flex;
+    justify-content: center;
+
+}
+
+.blogText {
+    WIDTH: 60%;
+}
+
+.button {
+    WIDTH: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.buttonBlog {
+    padding: 28px 39px 29px 39px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.textBlog1 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+}
+
+.picturesSideBlog {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.picture1Blog {
+    background-image: url(Image1Blog.png);
+    width: 45%;
+    height: 90%;
+    border: 0;
+    border-style: solid;
+    border-radius: 25px;
+
+}
+
+.picture2Blog {
+    background-image: url(Image2Blog.png);
+    width: 45%;
+    height: 90%;
+    border: 0;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.sircleBlog1,
+.sircleBlog2 {
+    background-color: #FFFFFF;
+    border: 0;
+    border-style: solid;
+    border-radius: 50px;
+    width: 13%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.textsircleBlog1,
+.textsircleBlog2,
+.textsircleBlog3,
+.textsircleBlog4 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+}
+
+.card1Blog {
+    width: 25%;
+    height: 30%;
+    background-color: #FFFFFF;
+    border: 0;
+    border-style: solid;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 9250px;
+    left: 465px;
+    box-shadow: 0px 20px 35px 0px #A7A7A740;
+
+}
+
+.headerCard1Blog,
+.headerCard2Blog {
+    display: flex;
+    align-items: center;
+    width: 31%;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.robotoTextBlogCard1,
+.robotoTextBlogCard2 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.descriptionCard1Blog,
+.descriptionCard2Blog {
+    width: 85%;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.buttonBlogCard1,
+.buttonBlogCard2 {
+    padding: 20px 30px 20px 30px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #EFD372;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.textBlogCard1,
+.textBlogCard2 {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+}
+
+.offer2 {
+    min-height: 100vh;
+}
+
+.card2Blog {
+    width: 25%;
+    height: 30%;
+    background-color: #FFFFFF;
+    border: 0;
+    border-style: solid;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 0px 20px 35px 0px #A7A7A740;
+    top: 9250px;
+    left: 1115px;
+}
+
+.NewslatterMain {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newslatterContainer {
+    width: 65%;
+    height: 64.9%;
+    background-image: url(NewslatterBackground.png);
+    border: 0;
+    border-style: solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inputNewslatters {
+    border: 0;
+    border-style: solid;
+    border-radius: 25px;
+    outline: none;
+    padding: 40px;
+    width: 300px;
+
+}
+
+.textNewslatters {
+    width: 55%;
+    display: flex;
+    margin-left: 60px;
+
+    flex-direction: column;
+}
+
+.inputContainerNewslatter {
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.subBtnNewslatters {
+    padding: 35px 42px 35px 42px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #274C5B;
+    width: 190px;
+    border: 0;
+}
+
+.textBlogCard2 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.textNewslatter1,
+.textNewslatter2 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.footerMAain {
+    width: 100%;
+    height: 492px;
+    margin-top: 40px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contactUsFooter2 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.headerFooter1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+    margin-bottom: 40px;
+}
+
+.emailFooter1,
+.phoneFooter1,
+.addressFooter1 {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+}
+
+.dummyFooteremail,
+.dummyFooterPhone,
+.dummyFooteraddress {
+    color: #525C60;
+}
+
+.lineFooter {
+    height: 70%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DEDDDD;
+
+}
+
+.organicLogoFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logosFooter {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.dummyFooter {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dummyFooter1,
+.dummyFooter2 {
+    color: #525C60;
+}
+
+.headerFooter3 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+    margin-bottom: 40px;
+}
+
+.descriptionFooter2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerDummy1,
+.footerDummy2,
+.footerDummy3,
+.footerDummy4,
+.footerDummy5 {
+    color: #525C60;
+}
+
+.dummyFooterMain {
+    color: #525C60;
+
+}
+
+.textFooterMain {
+    display: flex;
+    gap: 5px;
+}
+
+.robotoTextFooterMain {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #274C5B;
+
+}
+
+.lineFooterMain2 {
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DEDDDD;
+}
+
+#menu-bar {
+    display: none;
+}
+
+@media screen and (max-width: 1450px) {
+    .logo img {
+        width: 140px;
+        height: 30px;
+    }
+
+    .offer1 {
+        padding-top: 10px;
+        height: 20%;
+    }
+
+
+    .banner {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .offer2 {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .offersMain {
+        min-height: 100vh;
+    }
+
+    .cardWhoWeAre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300%;
+    }
+
+    .cardWhoWeAreContainer {
+        position: relative;
+    }
+
+    .offerBanner {
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .leftOffer,
+    .rightOffer {
+        scale: 0.8;
+        margin: 0;
+        z-index: 20;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1100px) {
+    .sircleRating div {
+        scale: 0.4;
+    }
+
+    .cartIcon img {
+        width: 40px;
+    }
+
+    .cartText {
+        display: none;
+    }
+
+    .cartBtn {
+        width: fit-content;
+        margin-right: 0;
+    }
+
+    .SearchBar {
+        height: 40px;
+    }
+
+    .search-bar img {
+        height: 40px;
+    }
+
+    .banner-left {
+        padding-left: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .banner-left button {
+        width: 300px;
+    }
+
+    .aboutUsComb {
+        width: 100vw;
+    }
+
+    .aboutUsImg {
+        position: absolute;
+        width: 100%;
+    }
+
+    .aboutComb1 {
+        width: 100%;
+        z-index: 20;
+        padding: 15px;
+    }
+
+    .roboTextAbout {
+        width: 700px;
+    }
+
+    .dummyAbout {
+        width: 65%;
+    }
+
+    .cart1,
+    .cart2,
+    .cart3,
+    .cart4 {
+        height: fit-content;
+        height: fit-content;
+        width: 250px;
+        height: 320px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .cart1 img,
+    .cart2 img,
+    .cart3 img,
+    .cart4 img {
+        width: 100%;
+        height: 90%;
+        margin-top: -40px
+    }
+
+    .imgcart3,
+    .imgcart1,
+    .imgcart2,
+    .imgcart4 {
+        width: 100%;
+        height: 80%;
+    }
+
+    .price1,
+    .price2,
+    .price3,
+    .price4 {
+        position: absolute;
+        bottom: 5px;
+        width: 100%;
+    }
+
+    .group1,
+    .group2,
+    .group3,
+    .group4 {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: 25px;
+    }
+
+    .leftwhoWeAre {
+        display: none;
+    }
+
+    .rightewhoWeAre {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .galleryContainer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10pxpx 10px;
+    }
+
+    .galleryContainer div {
+        width: 100%;
+    }
+
+
+    .offer1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .robotoTextOffers {
+        font-size: 25px;
+    }
+
+    .offersButton {
+        scale: 0.6;
+    }
+
+    .robotoText {
+        font-size: 20px;
+
+    }
+
+    .sircleRating div {
+        scale: 0.4;
+    }
+
+    .roboTextShop {
+        font-size: 30px;
+    }
+
+    .dummyRating1,
+    .dummyRating2 {
+        color: rgba(255, 255, 255, 0.788);
+        text-align: center;
+    }
+
+    .statusRating {
+        color: whitesmoke;
+    }
+
+    .roboTextRating {
+        text-align: center;
+    }
+
+    .ratingChild {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.573);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainCostumerRating {
+        justify-content: space-around;
+    }
+
+    .foodCardRow1 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roboTextAbout {
+        font-size: 30px;
+        width: 550px;
+    }
+
+    .dummyAbout {
+        font-size: 15px;
+    }
+
+    .aboutComb1 {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+
+    }
+
+    .aboutUs {
+        padding: 0px 5px;
+        color: white;
+        overflow: hidden;
+    }
+
+    p {
+        color: rgba(232, 232, 232, 0.629);
+    }
+
+    .SearchBar {
+        display: none;
+    }
+
+    .headContainer1 {
+        gap: 10px;
+        width: fit-content;
+    }
+
+    .headBar {
+        justify-content: space-around;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .robotoText {
+        font-size: 60px;
+    }
+
+    .banner-left {
+        padding-left: 20px;
+    }
+
+    .banner-left button {
+        height: 20px;
+        text-align: left;
+        padding-left: 10px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #menu-bar {
+        display: block;
+        font-size: 30px;
+    }
+
+    .headContainer1 {
+        display: none;
+    }
+
+    .headBar {
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .logo img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .cartBtn {
+        gap: 50px;
+    }
+
+
+    .offer2 {
+        padding-bottom: 100px;
+    }
+
+    .offersMain {
+        padding-bottom: 600px;
+    }
+
+    .offerBanner {
+        margin-top: 30px;
+    }
+
+    .cardWhoWeAreContainer {
+        padding-left: 10px;
+    }
+
+    .leftOffer,
+    .rightOffer {
+        scale: 0.6;
+        margin: 0;
+        z-index: 20;
+    }
+
+    .roboTextAbout {
+        font-size: 20px;
+    }
+
+
+
+    .dummyAbout {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .rightewhoWeAre {
+        padding-left: 20px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .cartBtn {
+        gap: 30px;
+    }
+
+    .offerBanner {
+        gap: 0px;
+    }
+
+    .leftOffer,
+    .rightOffer {
+        scale: 0.45;
+        margin: 0;
+        z-index: 20;
+    }
+
+    .descriptionPointAbout1,
+    .descriptionPointAbout2 {
+        display: none;
+    }
+
+    .pointsAbout {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .aboutComb1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .robotoText {
+        font-size: 50px;
+        width: 90%;
+        line-height: 60px;
+    }
+}
