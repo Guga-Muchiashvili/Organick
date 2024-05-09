@@ -1302,6 +1302,7 @@ body {
 .textFooterMain {
     display: flex;
     gap: 5px;
+    justify-content : center;
 }
 
 .robotoTextFooterMain {
@@ -1324,10 +1325,30 @@ body {
 }
 
 @media screen and (max-width: 1450px) {
+    .button{
+        display : none;
+    }
+
+    .NewslatterMain{
+        display : none;
+    }
+
+
     .logo img {
         width: 140px;
         height: 30px;
     }
+
+    .textFooterMain{
+       justify-conter : center;
+       display : "flex";
+    }
+
+    .descriptionCard1Blog,
+    .card1Blog{
+        display : none;
+    }
+
 
     .offer1 {
         padding-top: 10px;
@@ -1376,11 +1397,80 @@ body {
         z-index: 20;
     }
 
+    .picturesSideBlog{
+        display: "flex";
+        flex-direction: column;
+    }
 
+    .picturesSideBlog div{
+        width :80%;
+    }
+
+    .blogMain{
+        flex-direction: column;
+        position : relative;
+        justify-content : center;
+        align-items : center;
+        text-align : center;
+    }
+
+    .roboTextBlog{
+        width : 100%;
+        margin-top : -30px;
+        font-size :40px;
+        margin-left : -50px;
+    }
+
+    .yellowtailtTextBlog{
+        position : absolute;
+        top : 10px;
+    }
+    .blogContainer{
+        display : "flex";
+        flex-direction : "column";
+        position : releative;
+    }
+
+    .buttonBlog{
+        position : absolute;
+        bottom : 0;
+        z-index : 5;
+        left : 50%;
+        transform : translateX(-50%);
+
+    }
+
+    .sircleBlog1, .sircleBlog2{
+        flex-direction : row;
+        padding-left : 10px;
+        justify-content : start;
+    }
+    ..sircleBlog1 div, .sircleBlog2 div{
+        display : 'inline';
+    }
+    .headerDivBlog{
+        display : "none";
+    }
+
+    .picturesSideBlog{
+        display : "flex";
+        align-items : 'center';
+        justify-content : "center";
+    }
 
 }
 
 @media screen and (max-width: 1100px) {
+
+    .lineFooter{
+        display : none;
+    }
+
+    .utilityPagesFooter{
+        display : none;
+    }
+
+
     .sircleRating div {
         scale: 0.4;
     }
@@ -1501,6 +1591,10 @@ body {
 
 @media screen and (max-width: 900px) {
 
+    .roboTextBlog{
+        width : 300px;
+    }
+
     .galleryContainer {
         flex-direction: column;
         gap: 20px;
@@ -1508,7 +1602,7 @@ body {
     }
 
     .galleryContainer div {
-        width: 100%;
+        width: 90%;
     }
 
 
@@ -1629,6 +1723,50 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+
+    .dummyFooter2, .dummyFooter1, .logoFooter, .headerFooter1{
+        display : none;
+    }
+
+    .footerContainer{
+        height : 100px;
+        align-items : center;
+        width : 100%;
+        justify-content : space-between;
+        padding : 0px 10px;
+    }
+
+    .organicLogoFooter{
+        width : fit-content;
+    }
+    .contactUsFooter2{
+        flex-direction: row;
+    }
+
+    .textFooterMain{
+        display : none;
+    }
+    .logosFooter div{
+        scale : 0.5;
+    }
+
+    .phoneContainerFooter1, .dummyFooterPhone, .addressContainerFooter1{
+        display : none;
+    }
+
+    .picture1Blog, .picture2Blog{
+        width : 400px;
+    }
+    .galleryContainer div {
+        width: 100%;
+    }
+
+    .roboTextBlog{
+        width : 150%;
+        text-align : center;
+        font-size : 28px;
+    }
+    
     #menu-bar {
         display: block;
         font-size: 30px;
